@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-# Lista de nombres de personas (simulación de datos)
+# Lista de nombres de personas
 personas = ['Yair', 'Mari', 'Liam', 'Ana']
 
 @app.route('/personas', methods=['GET'])
